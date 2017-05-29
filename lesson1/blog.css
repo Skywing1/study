@@ -19,24 +19,24 @@ article figure {
 article figure img{
 	width: 100%
 }
-nav ul {
+.site-nav {
 	background-color: PaleVioletRed;
 	list-style: none;
 	padding: 0;
 	width: 200px;
 	border: 1px solid MediumVioletRed;
 }
-nav ul li{
+.site-nav .site-nav-item{
 	border-bottom: 1px solid MediumVioletRed;
 	padding: 5px;
 }
-nav ul li:last-child{
+.site-nav .site-nav-item:last-child{
 	border-bottom: none;
 }
-nav ul li a {
+.site-nav .site-nav-item a {
 	color: white;
 	text-decoration: none;
 }
-nav ul li a: hover {
+.site-nav .site-nav-item a: hover {
 	text-decoration: underline;
 }
