@@ -40,3 +40,9 @@ article figure img{
 .site-nav .site-nav-item a: hover {
 	text-decoration: underline;
 }
+input[type="text"] {
+	border: 1px solid blue;
+}
+input[type="email"] {
+	border: 1px solid blue;
+}
